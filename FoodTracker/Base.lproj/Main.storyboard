@@ -49,7 +49,7 @@
                                             <outletCollection property="gestureRecognizers" destination="obI-6C-Gcl" appends="YES" id="v3e-fF-qVI"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Knc-7H-9ar" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Knc-7H-9ar" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="432.5" width="200" height="110"/>
                                     </stackView>
                                 </subviews>
@@ -83,6 +83,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="defaultPhoto" width="540" height="540"/>
+        <image name="defaultPhoto" width="1080" height="1080"/>
     </resources>
 </document>
